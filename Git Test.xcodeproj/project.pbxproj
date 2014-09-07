@@ -21,6 +21,7 @@
 		E0FA873319BC335F006F3991 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FA871519BC335E006F3991 /* UIKit.framework */; };
 		E0FA873B19BC335F006F3991 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0FA873919BC335F006F3991 /* InfoPlist.strings */; };
 		E0FA873D19BC335F006F3991 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FA873C19BC335F006F3991 /* Git_TestTests.m */; };
+		E0FA874819BC36B3006F3991 /* VHCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FA874719BC36B3006F3991 /* VHCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E0FA873819BC335F006F3991 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		E0FA873A19BC335F006F3991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0FA873C19BC335F006F3991 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		E0FA874619BC36B3006F3991 /* VHCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VHCTest.h; path = ../VHCTest.h; sourceTree = "<group>"; };
+		E0FA874719BC36B3006F3991 /* VHCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VHCTest.m; path = ../VHCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				E0FA872319BC335E006F3991 /* Main.storyboard */,
 				E0FA872619BC335E006F3991 /* VHCViewController.h */,
 				E0FA872719BC335E006F3991 /* VHCViewController.m */,
+				E0FA874619BC36B3006F3991 /* VHCTest.h */,
+				E0FA874719BC36B3006F3991 /* VHCTest.m */,
 				E0FA872919BC335E006F3991 /* Images.xcassets */,
 				E0FA871819BC335E006F3991 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0FA872219BC335E006F3991 /* VHCAppDelegate.m in Sources */,
+				E0FA874819BC36B3006F3991 /* VHCTest.m in Sources */,
 				E0FA872819BC335E006F3991 /* VHCViewController.m in Sources */,
 				E0FA871E19BC335E006F3991 /* main.m in Sources */,
 			);
